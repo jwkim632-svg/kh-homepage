@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim Kun Hun | Business Development Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1e293b;
+            --secondary: #3b82f6;
+            --bg-light: #f8fafc;
+            --text-main: #334155;
+            --text-muted: #64748b;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Pretendard', sans-serif; }
+        body { background-color: var(--bg-light); color: var(--text-main); line-height: 1.7; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+        header { background: var(--primary); color: white; padding: 80px 0 60px; text-align: center; }
+        header h1 { font-size: 2.8rem; margin-bottom: 10px; }
+        header p { font-size: 1.2rem; opacity: 0.9; font-weight: 300; }
+
+        .info-bar { background: white; border-bottom: 1px solid #e2e8f0; padding: 15px 0; sticky; top: 0; z-index: 100; }
+        .info-content { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; font-size: 0.9rem; }
+        .info-item i { color: var(--secondary); margin-right: 5px; }
+
+        section { padding: 70px 0; border-bottom: 1px solid #e2e8f0; }
+        .section-title { font-size: 2rem; color: var(--primary); margin-bottom: 40px; display: flex; align-items: center; gap: 15px; }
+        .section-title::after { content: ""; flex: 1; height: 1px; background: #cbd5e1; }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 25px; }
+        .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        .card h3 { color: var(--secondary); margin-bottom: 15px; font-size: 1.3rem; }
+
+        .exp-box { margin-bottom: 40px; }
+        .exp-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px; }
+        .company { font-size: 1.4rem; font-weight: 700; color: var(--primary); }
+        .duration { color: var(--text-muted); font-size: 0.95rem; }
+        .position { font-weight: 600; color: var(--secondary); margin-bottom: 15px; display: block; }
+        .task-list { list-style: none; padding-left: 5px; }
+        .task-list li { margin-bottom: 8px; position: relative; padding-left: 20px; }
+        .task-list li::before { content: "•"; color: var(--secondary); position: absolute; left: 0; font-weight: bold; }
+
+        .project-item { background: #f1f5f9; padding: 20px; border-radius: 8px; margin-bottom: 15px; border-left: 4px solid var(--secondary); }
+        .project-name { font-weight: 700; color: var(--primary); display: block; margin-bottom: 5px; }
+        
+        .tag-group { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+        .tag { background: var(--primary); color: white; padding: 4px 12px; border-radius: 6px; font-size: 0.85rem; }
+
+        footer { background: var(--primary); color: white; padding: 50px 0; text-align: center; }
+        @media (max-width: 768px) { header h1 { font-size: 2rem; } .info-content { flex-direction: column; align-items: center; gap: 10px; } }
+    </style>
+</head>
+<body>
+
+<div class="info-bar">
+    <div class="container info-content">
+        <span class="info-item"><i class="fa-solid fa-envelope"></i> khun2k@gmail.com</span>
+        <span class="info-item"><i class="fa-solid fa-phone"></i> 010-2627-1629</span>
+        <span class="info-item"><i class="fa-solid fa-location-dot"></i> 경기도 성남시 분당구</span>
+    </div>
+</div>
+
+<header>
+    <div class="container">
+        <h1>김건훈 (Chris Kim)</h1>
+        <p>바이오 사업개발(BD) 및 글로벌 라이선싱 전문가</p>
+    </div>
+</header>
+
+<div class="container">
+    <section>
+        <h2 class="section-title">Core Competencies</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Global Communication</h3>
+                <p>영어 및 일본어 Native 수준 활용. 글로벌 제약사와의 원활한 파트너링 및 협상 수행 역량 보유.</p>
+            </div>
+            <div class="card">
+                <h3>Technical Expertise</h3>
+                <p>도쿄대 생명과학 석사 배경을 바탕으로 바이오 파이프라인에 대한 깊이 있는 기술적 해석 가능.</p>
+            </div>
+            <div class="card">
+                <h3>Deal Experience</h3>
+                <p>신약 기술수출(L/O) 및 도입(L/I) 계약의 전 과정을 리딩한 실무 중심의 BD 전문가.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Professional Experience</h2>
+        
+        <div class="exp-box">
+            <div class="exp-header">
+                <span class="company">㈜티움바이오 (TiumBio)</span>
+                <span class="duration">2021.02 — 2022.09</span>
+            </div>
+            <span class="position">사업개발1팀 매니저</span>
+            <ul class="task-list">
+                <li>글로벌 바이오 컨퍼런스 참가 및 파트너링 F/U 총괄 (BIO USA, JPM 등)</li>
+                <li>L/O, L/I, CDA, CTCSA 등 다양한 라이선싱 계약서 검토 및 체결</li>
+                <li>연구 부서 협업을 통한 VDR 관리 및 Due-diligence 진행</li>
+                <li>데이터베이스(Cortellis, Datamonitor) 활용 경쟁 시장 분석</li>
+            </ul>
+        </div>
+
+        <div class="exp-box">
+            <div class="exp-header">
+                <span class="company">㈜에빅스젠 (Avixgen)</span>
+                <span class="duration">2019.04 — 2021.01</span>
+            </div>
+            <span class="position">사업개발팀 연구원</span>
+            <ul class="task-list">
+                <li>기술특례상장 준비를 위한 기술사업계획서 작성 지원</li>
+                <li>자사 파이프라인 및 경쟁 약물 특허 조사/분석 및 출원 관리</li>
+                <li>국외 CDMO/CRO 관리 및 구매 발주 계약 검토</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Key Projects</h2>
+        <div class="project-item">
+            <span class="project-name">중국 H사 자궁내막증 신약 기술수출(L/O) 계약</span>
+            <p>Term Sheet 합의 및 Definitive Agreement 협상 전 과정 담당하여 계약 체결 성사</p>
+        </div>
+        <div class="project-item">
+            <span class="project-name">프랑스 O사 공동연구 및 기술도입(L/I) 옵션 계약</span>
+            <p>BD Contact Point로서 수차례의 화상회의 및 Binding Term Sheet 협상 성사</p>
+        </div>
+        <div class="project-item">
+            <span class="project-name">다국적 제약사(M사, B사) CTCSA 계약</span>
+            <p>공동임상 및 의약품 지원 계약의 본 계약서 및 부속 계약서 협상 진행</p>
+        </div>
+        <div class="project-item">
+            <span class="project-name">일본 Platform Technology 공동연구 및 L/O 협의</span>
+            <p>일본어 역량을 활용한 파트너링 및 Term Sheet 합의 프로세스 진행</p>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Education & Skills</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Education</h3>
+                <p><strong>도쿄대학 대학원</strong> | 생명과학 석사</p>
+                <p><strong>사이타마대학</strong> | 분자생물학 학사 (국비장학생)</p>
+                <p><strong>경희대학교</strong> | 한일공동이공계학부유학생 과정</p>
+            </div>
+            <div class="card">
+                <h3>Skills & Training</h3>
+                <div class="tag-group">
+                    <span class="tag">English (Native)</span>
+                    <span class="tag">Japanese (Native)</span>
+                    <span class="tag">TOEIC 980</span>
+                    <span class="tag">JLPT N1</span>
+                </div>
+                <div style="margin-top: 15px; font-size: 0.9rem; color: var(--text-muted);">
+                    • 바이오 IP 계약 및 협상의 이해 수료<br>
+                    • 사업성검토 프로세스 활용 기법 수료<br>
+                    • 의약품 R&D기획 심화과정 수료
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <div class="container">
+        <p style="font-weight: 700; margin-bottom: 10px;">KUN HUN (CHRIS) KIM</p>
+        <p style="font-size: 0.8rem; opacity: 0.7;">© 2026 Professional Portfolio. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
